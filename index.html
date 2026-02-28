@@ -4,25 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Video Slider</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <section class="landing">
       <div class="slider">
-        <div class="slide">
+        <div class="slide active">
           <video src="videos/Video-1.webm" autoplay loop muted></video>
+          <h1 class="slide-heading">horses</h1>
         </div>
-        <div class="slide">
+        <div class="slide" style="--i: 4">
           <video src="videos/Video-2.webm" autoplay loop muted></video>
+          <h1 class="slide-heading">volcano</h1>
         </div>
-        <div class="slide">
+        <div class="slide" style="--i: 3">
           <video src="videos/Video-3.webm" autoplay loop muted></video>
+          <h1 class="slide-heading">yacht</h1>
         </div>
-        <div class="slide">
+        <div class="slide" style="--i: 2">
           <video src="videos/Video-4.webm" autoplay loop muted></video>
+          <h1 class="slide-heading">beach</h1>
         </div>
-        <div class="slide">
+        <div class="slide" style="--i: 1">
           <video src="videos/Video-5.webm" autoplay loop muted></video>
+          <h1 class="slide-heading">ocean</h1>
         </div>
       </div>
     </section>
